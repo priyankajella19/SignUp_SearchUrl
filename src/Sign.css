@@ -1,0 +1,90 @@
+@media screen and (min-width: 480px) and (max-width:1051px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 98px;
+
+        /* margin-top: 50px;
+           margin-left: 450px; */
+        padding: 20px;
+        width: 30%;
+    }    /* #searchurl{
+           float: right;   
+           color: white;
+           border: none;
+           top: 5px;
+           cursor: pointer;
+           padding: 2px;
+       } */
+    #searchurl {
+        background-color: rgb(255, 98, 0);
+        display: inline;
+        left: 110px;
+        right: 90px;
+    }
+
+    input {
+        height: 40px;
+
+    }
+
+    .logincomponent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        height: 40px;
+        border: none;
+        color: white;
+    }
+
+    #searchip {
+
+        width: 400px;
+
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 5px;
+        padding: 20px;
+        width: 30%;
+
+    }
+    #searchurl{
+        background-color: rgb(255, 98, 0);
+        display: inline;
+        left: 110px;
+        right: 90px;
+    }
+    input {
+        height: 40px;
+       
+
+    }
+
+    .logincomponent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        height: 40px;
+        border: none;
+        color: white;
+    }
+
+    #searchip {
+
+        width: 400px;
+
+    }
+
+}
